@@ -4,4 +4,4 @@ services:
     image: danielfe/aspnet2razor
     build:
       context: ./.
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.linux
