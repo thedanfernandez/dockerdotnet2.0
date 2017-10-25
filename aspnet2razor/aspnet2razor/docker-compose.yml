@@ -1,0 +1,7 @@
+version: '3'
+services:
+  aspnet2razor:
+    image: danielfe/aspnet2razor
+    build:
+      context: ./.
+      dockerfile: Dockerfile
